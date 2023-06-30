@@ -10,6 +10,6 @@
 7. Displaying error under the input element
 
 ## How to run 
-Step-1 Clone the project 
-Step-2 Go to index.html and run in live server. This will open a browser in which the single page application will be running. 
+1. Clone the project
+2.  Go to index.html and run in live server. This will open a browser in which the single page application will be running. 
 
