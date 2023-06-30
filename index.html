@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persons Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form</h1>
+        <form id="personForm">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" placeholder="First Name" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" placeholder="Last Name" required>
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email" ce-email="true" required>
+            </div>
+            <div>
+                <label for="phone">Mobile Number:</label>
+                <input type="tel" id="phone" placeholder="Mobile Number" ce-mobile="true" ce-mask="+91-8287411016"
+                    required>
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <select id="city" required>
+                    <option value="">Select City</option>
+                    <option value="Gurugram">Gurugram</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Noida">Noida</option>
+                </select>
+            </div>
+            <div>
+                <label for="pincode">Pincode/Zipcode:</label>
+                <input type="text" id="pincode" placeholder="Pincode/Zipcode" required>
+            </div>
+            <button type="submit">Add Person</button>
+        </form>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search">
+        </div>
+    </div>
+
+    <div class="cardElem">
+        <div id="personsList" class="persons-list"></div>
+        <div id="pagination" class="pagination"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
