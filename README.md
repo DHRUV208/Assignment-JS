@@ -1,5 +1,5 @@
-# https---github.com-DHRUV208-Assignment-JS
-## Single Page Application using pure Javascript
+# Assignment-JS submitted by Dhruv Mehta
+## Single Page Application using pure Javascript live @ https://dhruv208.github.io/Assignment-JS/
 ### Key Features
 1. Style using only css
 2. Displaying persons in Cards view
